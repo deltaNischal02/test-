@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry Christmas</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body{
+        font-family: 'Berkshire Swash', cursive;
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('photo/dog-4688913_1920.jpg');
+        height: 1000px;
+        width: 1000px;
+    }
+    .left{
+        display: inline block;
+        
+        position: absolute;
+        left: 35px;
+        top: 25px;
+        margin: 0-10px;
+    }
+    .left img{
+        width: 50px;
+        
+    }
+    .left div{
+        text-align: justify;
+    }
+    .mid{
+        display: block;
+        width: 70%;
+        margin: 40px  auto;
+        /* border: 4px solid rgb(39, 39, 104); */
+    }
+    .right{
+        font-family: 'Berkshire Swash', cursive;
+        position: absolute;
+        right: 25px;
+        top: 49px;
+        display: inline block;
+        
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{ 
+        color: rgb(255, 0, 0);
+        padding: 35px 23px;
+        text-decoration: none;
+    }
+    .navbar li a:hover, .navbar li a:active{ 
+        text-decoration: underline;
+        color:wheat;
+    }
+    .btn{
+        color:red;
+        background-color: yellow;
+        margin: 0px,0px;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 20px;  
+        font-family: 'Berkshire Swash', cursive;
+        cursor: pointer;
+    }
+    .btn a:hover{
+        text-decoration: underline;
+        color:white
+    }
+    
+    .container{
+        /* border: 2px solid red; */
+        margin: 243px 194px;
+        padding: -1px 55px;
+        width: 53%;
+        border-radius: 5px;
+        font-size: 40px;
+
+    }
+    .form-group input{
+        font-family: 'Berkshire Swash', cursive;
+        display: block;
+        text-align: center;
+        width: 81%;
+        padding: 13px 30px;
+        border: 2px solid;
+        margin: 17px;
+    }
+    .form-group button{
+        display: block;
+        margin: 10px 20px;
+        width: 60px;
+        padding: 11px;
+    }
+    .container h3{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        margin: 30px auto;
+        width: 150px;
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <img src="photo/santa-hat-1087709_640.png" alt="" id="logo">
+            <div>Merry Christmas</div>
+        
+
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid" id="active">
+          <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+         </ul>
+        </div>
+        <!-- right for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email us</button>
+            <button class="btn">Facebook</button>
+        </div>
+        <div class="container">
+           <h3>Contact us to get free Christmas gifts</h3>
+           <form action="noaction.php">
+           <div class="form-group">
+               <input type="text" name="" placeholder="Enter your Name">
+           </div>
+           <div class="form-group">
+               <input type="text" name="" placeholder="Enter your Locality">
+           </div>
+           <div class="form-group">
+               <input type="text" name="" placeholder="Enter your Gift">
+           </div>
+           <div>
+           <button class="btn">Submit</button>
+        </div>
+           </form>
+        </div>
+    </header>
+
+    
+</body>
+</html>
